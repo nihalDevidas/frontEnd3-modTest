@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image of the day</title>
+    <link rel="stylesheet" href="../frontEnd3-modTest/index.css">
+</head>
+<body>
+        <div class = "main-container">
+            <h3 id = "main-title">NASA Picture of the day</h3>
+            <div id="current-image-container"> </div>
+        </div>
+    
+        <div class="main-con2">
+            <form id="search-form">
+                <h4 class="h44">Search picture for the Day</h4>
+        
+               <label for="search-input">Select a date:</label> <input id = "search-input" type="date" required>
+                <button type="submit">Search</button>
+            </form>
+        
+            <div class="recent-search">
+                <h4>Recent Searches</h4>
+                <ul id = "search-history">
+        
+                </ul>
+            </div>
+    
+        </div>
+    
+   
+
+    <script src="./index.js"></script>
+</body>
+</html>

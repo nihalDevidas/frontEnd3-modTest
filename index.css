@@ -1,0 +1,114 @@
+.main-container{
+    padding-left:5px;
+}
+
+#current-image-container{
+    width:53%;
+    padding:20px;
+    background-color: rgb(28, 28, 28);
+}
+#main-title{
+    padding:20px 20px;
+    font-size: 35px;
+    margin:0px;
+    color:rgb(211, 214, 217);
+    font-weight: normal;
+    background-color: rgb(28, 28, 28);
+    width:53%;
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+.img-con{
+    width:100%;
+    height:400px;
+}
+.nasa-img{
+    height:100%;
+    width:100%;
+}
+.title{
+    padding: 20px  0px 15px 0px;
+    font-size: 24px;
+    color:rgb(230, 236, 242);
+    border-top: 1px solid rgb(80, 80, 80);
+    margin-top:5px;
+}
+.description{
+    font-size: 17px;
+    color:rgb(207, 210, 213);
+    line-height: 23px;
+    font-weight: normal;
+}
+
+/* styling below part */
+.main-con2{
+    border: 1px solid;
+    min-height:300px;
+    width: 53%;
+    margin-top:34px;
+    padding:20px;
+    background-color: rgb(28, 28, 28);
+
+}
+h4{
+    font-size: 30px;
+    margin:0px;
+    padding:5px 15px;
+    color:rgb(216, 224, 232);
+}
+.recent-search>h4{
+    margin-top:40px;
+    color:rgb(210, 217, 223);
+}
+.h44{
+    padding:13px 20px;
+    color:rgb(211, 214, 217);
+}
+label{
+    padding: 0px 0px 0px 20px;
+    color:rgb(211, 214, 217);
+    font-size: 20px;
+}
+#search-history{
+    list-style-type: none;
+}
+li{
+    padding: 8px 0px;
+    color:rgb(211, 214, 217);
+    background-color: rgba(28,28,28,1);
+    transition: background-color 0.16s;
+}
+li:hover{
+    cursor:pointer;
+    background-color: rgba(43, 43, 43, 0.7);
+    
+}
+button{
+    padding:10px 12px;
+    background-color: rgba(43, 43, 43, 1);
+    color:aliceblue;
+    border:none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left:10px;
+    transition: all 0.26s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+button:active{
+    box-shadow: 0px 0px 10px inset rgba(132, 124, 124, 0.7) ;
+   
+}
+input{
+    padding:8px
+    
+}
+@media(max-width:630px){
+
+    #current-image-container, #main-title, .main-con2{
+          width:100%;
+          padding:8px;
+    }
+    
+}
